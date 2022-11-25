@@ -1,4 +1,5 @@
 dependencies:
+  all: 0.0.0
   bcrypt: 5.0.1
   express: 4.17.1
   jsonwebtoken: 8.5.1
@@ -67,6 +68,10 @@ packages:
     optional: true
     resolution:
       integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
+  /all/0.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-0oKlfNVv2d+d7c1gwjGspzgbwot47PGQ4b3v1ccx4mR8l9P/Y6E6Dr/yE8lNT63EcAKEbHo6UG3odDpC/NQcKw==
   /ansi-align/3.0.1:
     dependencies:
       string-width: 4.2.3
@@ -2233,6 +2238,7 @@ packages:
     resolution:
       integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 specifiers:
+  all: ^0.0.0
   bcrypt: 5.0.1
   express: 4.17.1
   jsonwebtoken: 8.5.1
